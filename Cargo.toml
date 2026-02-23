@@ -1,0 +1,28 @@
+[package]
+authors = ["BarbossHack <barbossh4ck@protonmail.com>"]
+categories = ["data-structures", "rust-patterns", "asynchronous"]
+description = "A handle that will abort a Tokio task when dropped."
+edition = "2024"
+homepage = "https://github.com/BarbossHack/drop-handle"
+include = ["src/**/*", "Cargo.toml", "README.md"]
+keywords = ["abort", "handle", "drop", "join", "tokio", "async", "task"]
+license = "MIT OR Apache-2.0"
+name = "drop-handle"
+readme = "README.md"
+repository = "https://github.com/BarbossHack/drop-handle"
+rust-version = "1.85.1"
+version = "1.0.0"
+
+[dependencies]
+tokio = { version = "1.49.0", features = ["rt"] }
+tracing = "0.1.44"
+
+[dev-dependencies]
+tokio = { version = "1.49.0", features = ["macros", "rt-multi-thread", "time"] }
+tracing-subscriber = "0.3.22"
+
+[lints.clippy]
+nursery = { level = "warn", priority = -1 }
+pedantic = { level = "warn", priority = -1 }
+undocumented_unsafe_blocks = "warn"
+unwrap_used = "warn"
