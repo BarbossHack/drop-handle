@@ -14,8 +14,8 @@ This is useful for tasks that should be automatically cleaned up when they are n
 [crates-url]: https://crates.io/crates/drop-handle
 [mit-badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-url]: https://github.com/BarbossHack/drop-handle/blob/master/LICENSE
-[actions-badge]: https://github.com/BarbossHack/drop-handle/workflows/CI/badge.svg
-[actions-url]: https://github.com/BarbossHack/drop-handle/actions?query=workflow%3ACI+branch%3Amaster
+[actions-badge]: https://github.com/BarbossHack/drop-handle/actions/workflows/ci.yaml/badge.svg
+[actions-url]: https://github.com/BarbossHack/drop-handle/actions/workflows/ci.yaml
 
 ## Example
 
